@@ -1,0 +1,53 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+/* Navigation Section */
+
+header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 103%;
+  margin-left: -10px;
+  margin-right: 10px;
+  margin-top: -10px;
+  z-index: 1;
+
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: .9;
+}
+
+.navitem {
+  text-decoration: underline;
+  display: inline-flex;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Navigation Section */
+
+/* Main Section */
+
+.steeping {
+  height: 200px;
+  width: 300px;
+}
+
+/* Main Section */
